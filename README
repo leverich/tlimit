@@ -1,0 +1,8 @@
+tlimit - Send SIGINT to process after a time-limit
+
+Usage: tlimit [-v] [-t <time limit>
+              app [<args> ..] | PID
+
+Example:
+
+  tlimit -t 120 some_cron_job
